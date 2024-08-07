@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="content/stylo.css">   
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="btn-group flex gap-1">
+        <button class="btn" id="showBtn1"><i class="fa-solid fa-xmark-circle me-2"> </i>BOX 1</button>
+        <button class="btn" id="showBtn1"><i class="fa-solid fa-check-circle me-2"> </i>BOX 2</button>
+        <button class="btn" id="showBtn1"><i class="fa-brands fa-github me-2"> </i>BOX 2</button>
+        <button class="check" id="check"><i class="fa fa-check"></i></button>
+    </div>
+
+    <div class="cajax">
+        <div class="contenedor" id="box1">
+            <h3>CONTENIDO 1</h3>
+        </div>
+        <div class="contenedor" id="box2">
+            <h3>CONTENIDO 2</h3>
+        </div>
+        <div class="contenedor" id="box3">
+            <h3>CONTENIDO 3</h3>
+        </div>
+    </div>
+
+
+    <div class="side">
+        <button class="btn" id="showBtn1"><i class="fa-brands fa-github me-2"> </i>BOX 2</button>   
+    </div>
+    <script>
+        let checked = document.getElementById("check")
+        let side = document.querySelector(".side")
+
+        checked.addEventListener("click", function () {
+            
+            checked.classList.toggle("transparent")
+            side.classList.toggle("mover")
+
+        })
+
+
+    </script>
+</body>
+
+</html>
