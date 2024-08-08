@@ -19,7 +19,7 @@
 
 body {
     min-height: 100dvh;
-    background-color: var(--accent-400);
+    background-color: white;
     color: var(--primary-900);
 
 }
@@ -105,7 +105,9 @@ img {
 .tbody{
     background-color: yellow ;
 }
-
+.image{
+    width: 30%;
+}
 
 }
 
@@ -133,4 +135,125 @@ img {
         margin-bottom: 2em;
     }
 
+}
+.btn-group{
+  padding: 10px;
+  height: 200px;
+  width: 100%;
+}
+.caca{
+    justify-content: space-between;
+}
+.image{
+    position: relative;
+    border-radius:0 0 30px 30px;
+    overflow: hidden;
+}
+img{
+    object-fit: contain;
+}
+.texto{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    padding: 2em;
+
+}
+.top-text-image{
+    color: gray;
+}
+.title-text-image{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+.footer-text-image{
+    display: flex;
+    color: aqua;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.footer{
+    margin-left: 10px;
+    color: gray;
+    font-size: 1rem;
+    text-decoration: line-through 2px;
+}
+.search{
+    padding: 20px;
+    position: absolute;
+    top: 10%;
+    opacity: 0.5;
+    width: 100%;
+    
+}
+input[type=search]{
+    padding-left: 40px;
+    border-radius: 5px;
+    height: 40px;
+    border: none;
+    width: 100%;
+}
+.lupa{
+    position: absolute;
+    padding: 10px;
+    cursor: pointer;
+}
+.action{
+    background-color: rgb(170, 238, 255);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    margin: 2px;
+    transition: ease-in-out;
+}
+.inactive{
+    width: 5px;
+    height: 5px;
+    margin-top: 4px;
+}
+.botonera{
+    display: flex;
+    justify-content: center;
+}
+.action:hover{
+    transform: scale(1.0) 1s;
+    box-shadow: 0 0 13px white;
+}
+.title-mediun-text{
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.link-text{
+    color: rgb(0, 174, 255);
+    font-size: 1rem;
+    cursor: pointer;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    border-radius:20px 20px 0 0;
+    overflow: hidden;
+    flex-direction: column;
+    margin-bottom: 40px;
+    display: flex;
+    img{
+        object-fit: cover;
+        height: 80%;
+    }
+}
+.dato-text{
+    height: 20%;
+    color: gray;
+    padding-left: 10px;
+}
+.dato-text-2{
+    height: 20%;
+    color: black;
+    padding-left: 10px;
+    font-weight: bold;
 }

@@ -1,0 +1,27 @@
+[
+    {
+        "nombre": "mujer chomba",
+        "precio": "$4500",
+        "img": "mujer-chomba.jpg"
+    },
+    {
+        "nombre": "mujer buzo",
+        "precio": "$12300",
+        "img": "mujer-buzo.jpg"
+    },
+    {
+        "nombre": "mujer pantalon",
+        "precio": "$6000",
+        "img": "mujer-pantalon.jpg"
+    },
+    {
+        "nombre": "mujer short",
+        "precio": "$2000",
+        "img": "mujer-short.jpg"
+    },
+    {
+        "nombre": "mujer musculoza",
+        "precio": "$7000",
+        "img": "mujer-musculoza.jpg"
+    }
+]
