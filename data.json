@@ -1,27 +1,27 @@
 [
     {
-        "nombre": "mujer chomba",
+        "nombre": "Remera microfibra",
         "precio": "$4500",
-        "img": "mujer-chomba.jpg"
+        "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reuschexclusivo.com.ar%2Fproductos%2Fremera-microfibra-hombre%2F&psig=AOvVaw31YiriKuImCPsVDBwBL5SO&ust=1723669818633000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNjWkNbw8ocDFQAAAAAdAAAAABAE"
     },
     {
         "nombre": "mujer buzo",
         "precio": "$12300",
-        "img": "mujer-buzo.jpg"
+        "img": "https://acdn.mitiendanube.com/stores/440/495/products/batic-mod-7-01397afcb263b9e6e317026541038998-1024-1024.png"
     },
     {
-        "nombre": "mujer pantalon",
+        "nombre": "Remera oversize",
         "precio": "$6000",
-        "img": "mujer-pantalon.jpg"
+        "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpaixon.shop%2Fproductos%2Fremera-starter-white%2F&psig=AOvVaw2-fSZc6szQoa1Cdq8mOZyh&ust=1723670361934000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJDI88_y8ocDFQAAAAAdAAAAABAJ"
     },
     {
         "nombre": "mujer short",
         "precio": "$2000",
-        "img": "mujer-short.jpg"
+        "img": "https://acdn.mitiendanube.com/stores/029/842/products/blanca_the-original11-e13124792ae547970016220769335573-1024-1024.png"
     },
     {
         "nombre": "mujer musculoza",
         "precio": "$7000",
-        "img": "mujer-musculoza.jpg"
+        "img": "https://d22fxaf9t8d39k.cloudfront.net/3dd3c9637215042da6c47b71dbcb2bce7346aad271a80199524dddacd3285fe9278023.png"
     }
 ]

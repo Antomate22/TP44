@@ -20,12 +20,14 @@
             <span class="footer-text-image">$7.000 <span class="footer">$8500</span></span>
         </div>
     </div>
+    
     <div class="botonera">
         <button class="action inactive"></button>
         <button class="action"></button>
         <button class="action inactive"></button>
     </div>
-    <span class="title-mediun-text flex">Trending <span class="link-text">Show all</span></span>
+    <span class="title-mediun-text flex
+    ">Trending <span class="link-text">Show all</span></span>
     <div class="btn-group flex gap-1">
         <!-- <button class="btn" id="showBtn1"><i class="fa-solid fa-xmark-circle me-2"> </i>BOX 1</button>
         <button class="btn" id="showBtn1"><i class="fa-solid fa-check-circle me-2"> </i>BOX 2</button>
@@ -54,16 +56,14 @@
     </div>
     <span class="title-mediun-text flex">Categories <span class="link-text">Show all</span></span>
     <div class="cajax">
-        <div class="contenedor" id="box1">
-            <h3><i class="fa fa-female" aria-hidden="true"></i> woman <i class="fa fa-angle-right" aria-hidden="true"></i></h3>
+        <div class="contenedor " id="box1">
+            <span class="flex"> <p class="pt1"><i class="fa fa-female" aria-hidden="true"></i> woman<p class="gray">(250 items)</p><i class="fa fa-angle-right center" aria-hidden="true"></i></p></span>
         </div>
         <div class="contenedor" id="box2">
             
-            <h3><i class="fa fa-male" aria-hidden="true"></i> man <i class="fa fa-angle-right" aria-hidden="true"></i></h3>
+            <span class="flex"><p class="pt1"><i class="fa fa-male" aria-hidden="true"></i> man <p class="gray">(189 items)</p><i class="fa fa-angle-right center" aria-hidden="true"></i></p></span>
         </div>
-        <div class="contenedor" id="box3">
-            <h3>CONTENIDO 3</h3>
-        </div>
+    
     </div>
 
 
@@ -71,15 +71,7 @@
         <button class="btn" id="showBtn1"><i class="fa-brands fa-github me-2"> </i>BOX 2</button>
     </div>
     <script>
-        let checked = document.getElementById("check")
-        let side = document.querySelector(".side")
 
-        checked.addEventListener("click", function () {
-
-            checked.classList.toggle("transparent")
-            side.classList.toggle("mover")
-
-        });
 
 
     </script>
