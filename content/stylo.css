@@ -239,6 +239,11 @@ input[type=search]{
     height: 5px;
     margin-top: 4px;
 }
+.absolute{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+}
 .botonera{
     display: flex;
     justify-content: center;
@@ -264,7 +269,16 @@ input[type=search]{
     align-items: center;
 }
 .spa{
-    justify-content: space-evenly;
+    display: flex;
+    justify-content: space-between;
+}
+.top{
+    color: black;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    padding: 20px;
+    font-size: 20pt;
 }
 .card{
     width: 200px;
