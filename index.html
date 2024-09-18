@@ -21,16 +21,35 @@
             <span class="title-text-image">Termica Negra</span>
             <span class="footer-text-image">$7.000 <span class="footer">$8500</span></span>
         </div>
-        <div class="tns" style="direction: ltr">
-            <div data-tns="true" data-tns-nav-position="bottom" data-tns-mouse-drag="true" data-tns-controls="false">
-                <!--begin::Item-->
-                <div class="text-center px-5 pt-5 pt-lg-10 px-lg-10">
-                    <img src="./imagen.jpg" class="card-rounded shadow mw-100" alt="" />
+        <div class="container" style="direction: ltr">
+            <div id="carouselExample" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Item 1 -->
+                    <div class="carousel-item active">
+                        <div class="text-center p-5">
+                            <img src="./imagen.jpg" class="img-fluid rounded shadow" alt="" />
+                        </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="carousel-item">
+                        <div class="text-center p-5">
+                            <img src="./otra-imagen.jpg" class="img-fluid rounded shadow" alt="" />
+                        </div>
+                    </div>
+                    <!-- Puedes agregar más items aquí -->
                 </div>
-                <!--end::Item-->
-                ...
+                <!-- Controles (opcional) -->
+                <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
             </div>
         </div>
+        
     </div>
 
     <div class="botonera">
