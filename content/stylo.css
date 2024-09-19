@@ -140,6 +140,9 @@ footer{
     font-size: 2em;
 
 }
+#papi-carrusel .carousel-item{
+    height: 50% !important;
+}
 
 .transparent {
     color: transparent;
