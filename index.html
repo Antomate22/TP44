@@ -2,126 +2,133 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="content/stylo.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="content/stylo.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Document</title>
 </head>
 
 <body>
+  <div class="search">
+    <i class='bx bx-search-alt-2 lupa'></i><input type="search" placeholder="Que estas buscando?">
+  </div>
   <main>
     <div class="image">
-      <div class="search">
-        <i class='bx bx-search-alt-2 lupa'></i><input type="search" placeholder="Que estas buscando?">
-      </div>
-        <div id="carouselExampleDark" class="carousel carousel-dark slide ">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active active-btn" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide ">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active active-btn"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" style="height: 600px;">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./img/imagen1.jpg" class="img-conf">
+            <div class="carousel-caption d-md-block">
+              <p class="top-text-image">Recomendation</p>
+              <h2>Buzo Verde Nike</h2>
+              <p class="precio">$3.000<span class="footer">$4.500</span></p>
+
             </div>
-            <div class="carousel-inner" style="height: 600px;">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img src="./img/imagen1.jpg" class="img-conf">
-                <div class="carousel-caption d-md-block">
-                  <p class="top-text-image">Recomendation</p>
-                  <h2>Buzo Verde Nike</h2>
-                  <p class="precio">$3.000<span class="footer">$4.500</span></p>
-                  
-                </div>
-              </div>
-              <div class="carousel-item " data-bs-interval="2000">
-                <img src="./img/imagen2.jpg" class="img-conf" alt="...">
-                <div class="carousel-caption d-md-block">
-                  <p class="top-text-image">Recomendation</p>
-                  <h2>Buzo Negro Nike</h2>
-                  <p class="precio">$13.000<span class="footer">$15.500</span></p>
-                  
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./img/imagen3.jpg" class="img-conf" alt="...">
-                <div class="carousel-caption d-md-block">
-                  <p class="top-text-image">Recomendation</p>
-                  <h2>Pantalon Cargo Rosa</h2>
-                  <p class="precio">$12.000<span class="footer">$4.500</span></p>
-                  
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
-        
+          <div class="carousel-item " data-bs-interval="2000">
+            <img src="./img/imagen2.jpg" class="img-conf" alt="...">
+            <div class="carousel-caption d-md-block">
+              <p class="top-text-image">Recomendation</p>
+              <h2>Buzo Negro Nike</h2>
+              <p class="precio">$13.000<span class="footer">$15.500</span></p>
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/imagen3.jpg" class="img-conf" alt="...">
+            <div class="carousel-caption d-md-block">
+              <p class="top-text-image">Recomendation</p>
+              <h2>Pantalon Cargo Rosa</h2>
+              <p class="precio">$12.000<span class="footer">$4.500</span></p>
+
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
     </div>
 
- 
+
     <span class="title-mediun-text flex
     ">Trending <span class="link-text">Show all</span></span>
     <div class="btn-group flex gap-1">
-        <!-- <button class="btn" id="showBtn1"><i class="fa-solid fa-xmark-circle me-2"> </i>BOX 1</button>
+      <!-- <button class="btn" id="showBtn1"><i class="fa-solid fa-xmark-circle me-2"> </i>BOX 1</button>
         <button class="btn" id="showBtn1"><i class="fa-solid fa-check-circle me-2"> </i>BOX 2</button>
         <button class="btn" id="showBtn1"><i class="fa-brands fa-github me-2"> </i>BOX 2</button>
         <button class="check" id="check"><i class="fa fa-check"></i></button> -->
-        <div class="card">
-            <img src="./imagen4.jpg" alt="">
-            <span class="dato-text">pijama</span>
-            <span class="dato-text-2">$1000</span>
-        </div>
-        <div class="card">
-            <img src="./imagen2.jpg" alt="">
-            <span class="dato-text">pijama</span>
-            <span class="dato-text-2">$1000</span>
-        </div>
-        <div class="card">
-            <img src="./imagen3.jpg" alt="">
-            <span class="dato-text">pijama</span>
-            <span class="dato-text-2">$1000</span>
-        </div>
-        <div class="card">
-            <img src="./imagen.jpg" alt="">
-            <span class="dato-text">pijama</span>
-            <span class="dato-text-2">$1000</span>
-        </div>
+      <div class="card">
+        <img src="./imagen4.jpg" alt="">
+        <span class="dato-text">pijama</span>
+        <span class="dato-text-2">$1000</span>
+      </div>
+      <div class="card">
+        <img src="./imagen2.jpg" alt="">
+        <span class="dato-text">pijama</span>
+        <span class="dato-text-2">$1000</span>
+      </div>
+      <div class="card">
+        <img src="./imagen3.jpg" alt="">
+        <span class="dato-text">pijama</span>
+        <span class="dato-text-2">$1000</span>
+      </div>
+      <div class="card">
+        <img src="./imagen.jpg" alt="">
+        <span class="dato-text">pijama</span>
+        <span class="dato-text-2">$1000</span>
+      </div>
     </div>
     <span class="title-mediun-text flex">Categories <span class="link-text">Show all</span></span>
     <div class="cajax">
-        <div class="contenedor " id="box1">
-            <span class="flex">
-                <p class="pt1"><i class="fa fa-female" aria-hidden="true"></i> woman
-                <p class="gray">(250 items)</p><i class="fa fa-angle-right center" aria-hidden="true"></i></p>
-            </span>
-        </div>
-        <div class="contenedor" id="box2">
+      <div class="contenedor " id="box1">
+        <span class="flex">
+          <p class="pt1"><i class="fa fa-female" aria-hidden="true"></i> woman
+          <p class="gray">(250 items)</p><i class="fa fa-angle-right center" aria-hidden="true"></i></p>
+        </span>
+      </div>
+      <div class="contenedor" id="box2">
 
-            <span class="flex">
-                <p class="pt1"><i class="fa fa-male" aria-hidden="true"></i> man
-                <p class="gray">(189 items)</p><i class="fa fa-angle-right center" aria-hidden="true"></i></p>
-            </span>
-        </div>
+        <span class="flex">
+          <p class="pt1"><i class="fa fa-male" aria-hidden="true"></i> man
+          <p class="gray">(189 items)</p><i class="fa fa-angle-right center" aria-hidden="true"></i></p>
+        </span>
+      </div>
 
     </div>
 
 
     <div class="side">
-        <button class="btn" id="showBtn1"><i class="fa-brands fa-github me-2"> </i>BOX 2</button>
+      <button class="btn" id="showBtn1"><i class="fa-brands fa-github me-2"> </i>BOX 2</button>
     </div>
-    </main>
-    <script>
+  </main>
+  <script>
 
 
 
-    </script>
-    <script src="./hago.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </script>
+  <script src="./hago.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
